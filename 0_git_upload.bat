@@ -1,15 +1,15 @@
 @echo off
 rem
-echo Adding everything...
+echo [GIT] Adding everything...
 git add .
 
-echo Committing to git...
+echo [GIT] Committing to git as %date:/=% %time:/=%...
 git commit -m "%date:/=% %time:/=%"
 
-echo Pushing to git...
+echo [GIT] Pushing to git...
 git push
 
-echo Done!
+echo [GIT] Done!
 
 pause
 cls
