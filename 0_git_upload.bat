@@ -1,3 +1,4 @@
+@echo off
 rem
 echo Adding everything...
 git add .
