@@ -1,3 +1,4 @@
+rem
 echo Adding everything...
 git add .
 
@@ -8,3 +9,7 @@ echo Pushing to git...
 git push
 
 echo Done!
+
+pause
+cls
+exit
